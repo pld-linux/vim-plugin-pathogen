@@ -1,12 +1,12 @@
 %define		plugin	pathogen
 Summary:	Vim plugin: Easy manipulation of 'runtimepath', 'path', 'tags', etc
 Name:		vim-plugin-%{plugin}
-Version:	2.0
+Version:	2.2
 Release:	1
 License:	Vim
 Group:		Applications/Editors/Vim
 Source0:	https://github.com/tpope/vim-pathogen/tarball/v%{version}/%{plugin}-%{version}.tgz
-# Source0-md5:	df363e4ac2ff0dd82c62aa5e43a740db
+# Source0-md5:	5d5b7692a0aaac21d26a866a7ea7ad61
 URL:		http://www.vim.org/scripts/script.php?script_id=2332
 # for _vimdatadir
 Requires:	vim-rt >= 4:7.2.170
